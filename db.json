@@ -3,7 +3,7 @@
     "token": {
       "refresh": "refreshtoken2022",
       "access": "accesstoken2022"
-    },
+    }
   },
   "family": {
     "familyid2022": {
@@ -16,12 +16,12 @@
           "parts": [
             {
               "pos_in_layout":0,
-              "text":"안녕하세요",
+              "text":"안녕하세요"
             },
             {
               "pos_in_layout":1,
-              "text":"안녕하세요",
-            },
+              "text":"안녕하세요"
+            }
           ]
         },
         {
@@ -32,12 +32,12 @@
           "parts": [
             {
               "pos_in_layout":0,
-              "text":"안녕하세요",
+              "text":"안녕하세요"
             },
             {
               "pos_in_layout":1,
-              "text":"안녕하세요",
-            },
+              "text":"안녕하세요"
+            }
           ]
         }
       ]
