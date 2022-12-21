@@ -1,46 +1,331 @@
 {
-  "user": {
-    "token": {
-      "refresh": "refreshtoken2022",
-      "access": "accesstoken2022"
-    }
-  },
-  "family": {
-    "familyid2022": {
-      "post": [
+    "user-token": {
+        "refresh": "refreshtoken2022",
+        "access": "accesstoken2022"
+    },
+    "user-self": {
+        "jenova195": {
+            "id": 0,
+            "name": "장승원",
+            "email": "fake@mail.com",
+            "phone": "010-1234-5678",
+            "birthdate": "2022-12-21",
+            "address": "서울시 우리집 912호",
+            "profile": null
+        }
+    },
+    "family": [
         {
-          "id": 1000,
-          "family": "familyid2022",
-          "layout": 0,
-          "date": "20220101",
-          "parts": [
-            {
-              "pos_in_layout":0,
-              "text":"안녕하세요"
+            "id": 0,
+            "admin": {
+                "id": 0,
+                "name": "장승원",
+                "email": "fake@mail.com",
+                "phone": "010-1234-5678",
+                "birthdate": "2022-12-21",
+                "address": "서울시 우리집 912호",
+                "profile": {
+                    "id": 0,
+                    "size_ratio": 1.0,
+                    "degree": 180,
+                    "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                    "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                }
             },
-            {
-              "pos_in_layout":1,
-              "text":"안녕하세요"
-            }
-          ]
+            "members": [
+                {
+                    "id": 1,
+                    "name": "유태준",
+                    "email": "fake@mail.com",
+                    "phone": "010-1234-5678",
+                    "birthdate": "2022-12-21",
+                    "address": "서울시 우리집 912호",
+                    "profile": {
+                        "id": 0,
+                        "size_ratio": 1.0,
+                        "degree": 180,
+                        "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                        "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "박경인",
+                    "email": "fake@mail.com",
+                    "phone": "010-1234-5678",
+                    "birthdate": "2022-12-21",
+                    "address": "서울시 우리집 912호",
+                    "profile": {
+                        "id": 0,
+                        "size_ratio": 1.0,
+                        "degree": 180,
+                        "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                        "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                    }
+                }
+            ],
+            "name": "우리집",
+            "address": "서울시 우리집 912호",
+            "id_code": "ABCDEFGH1234"
+        }
+    ],
+    "family-post1": [
+        {
+            "id": 0,
+            "family": {
+                "id": 0,
+                "admin": {
+                    "id": 0,
+                    "name": "장승원",
+                    "email": "fake@mail.com",
+                    "phone": "010-1234-5678",
+                    "birthdate": "2022-12-21",
+                    "address": "서울시 우리집 912호",
+                    "profile": {
+                        "id": 0,
+                        "size_ratio": 1.0,
+                        "degree": 180,
+                        "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                        "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                    }
+                },
+                "members": [
+                    {
+                        "id": 1,
+                        "name": "유태준",
+                        "email": "fake@mail.com",
+                        "phone": "010-1234-5678",
+                        "birthdate": "2022-12-21",
+                        "address": "서울시 우리집 912호",
+                        "profile": {
+                            "id": 0,
+                            "size_ratio": 1.0,
+                            "degree": 180,
+                            "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                            "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "name": "박경인",
+                        "email": "fake@mail.com",
+                        "phone": "010-1234-5678",
+                        "birthdate": "2022-12-21",
+                        "address": "서울시 우리집 912호",
+                        "profile": {
+                            "id": 0,
+                            "size_ratio": 1.0,
+                            "degree": 180,
+                            "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                            "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                        }
+                    }
+                ],
+                "name": "우리집",
+                "address": "서울시 우리집 912호",
+                "id_code": "ABCDEFGH1234"
+            },
+            "layout": 0,
+            "date": "2022-12-21",
+            "parts": [
+                {
+                    "id": 0,
+                    "post": 0,
+                    "type": "text",
+                    "pos_in_layout": 0,
+                    "detail": {
+                        "id": 0,
+                        "part": 0,
+                        "text": "hello!"
+                    }
+                },
+                {
+                    "id": 0,
+                    "post": 0,
+                    "type": "photo",
+                    "pos_in_layout": 0,
+                    "detail": {
+                        "id": 0,
+                        "part": 0,
+                        "degree": 180,
+                        "size_ratio": 1.0,
+                        "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                        "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                    }
+                }
+            ]
+        }
+    ],
+    "family-post2": [
+        {
+            "id": 0,
+            "family": {
+                "id": 0,
+                "admin": {
+                    "id": 0,
+                    "name": "장승원",
+                    "email": "fake@mail.com",
+                    "phone": "010-1234-5678",
+                    "birthdate": "2022-12-21",
+                    "address": "서울시 우리집 912호",
+                    "profile": {
+                        "id": 0,
+                        "size_ratio": 1.0,
+                        "degree": 180,
+                        "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                        "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                    }
+                },
+                "members": [
+                    {
+                        "id": 1,
+                        "name": "유태준",
+                        "email": "fake@mail.com",
+                        "phone": "010-1234-5678",
+                        "birthdate": "2022-12-21",
+                        "address": "서울시 우리집 912호",
+                        "profile": {
+                            "id": 0,
+                            "size_ratio": 1.0,
+                            "degree": 180,
+                            "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                            "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "name": "박경인",
+                        "email": "fake@mail.com",
+                        "phone": "010-1234-5678",
+                        "birthdate": "2022-12-21",
+                        "address": "서울시 우리집 912호",
+                        "profile": {
+                            "id": 0,
+                            "size_ratio": 1.0,
+                            "degree": 180,
+                            "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                            "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                        }
+                    }
+                ],
+                "name": "우리집",
+                "address": "서울시 우리집 912호",
+                "id_code": "ABCDEFGH1234"
+            },
+            "layout": 0,
+            "date": "2022-12-21",
+            "parts": [
+                {
+                    "id": 0,
+                    "post": 0,
+                    "type": "text",
+                    "pos_in_layout": 0,
+                    "detail": {
+                        "id": 0,
+                        "part": 0,
+                        "text": "hello!"
+                    }
+                },
+                {
+                    "id": 0,
+                    "post": 0,
+                    "type": "photo",
+                    "pos_in_layout": 0,
+                    "detail": {
+                        "id": 0,
+                        "part": 0,
+                        "degree": 180,
+                        "size_ratio": 1.0,
+                        "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                        "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                    }
+                }
+            ]
         },
         {
-          "id": 1001,
-          "family": "familyid2022",
-          "layout": 1,
-          "date": "20220101",
-          "parts": [
-            {
-              "pos_in_layout":0,
-              "text":"안녕하세요"
+            "id": 0,
+            "family": {
+                "id": 0,
+                "admin": {
+                    "id": 0,
+                    "name": "장승원",
+                    "email": "fake@mail.com",
+                    "phone": "010-1234-5678",
+                    "birthdate": "2022-12-21",
+                    "address": "서울시 우리집 912호",
+                    "profile": {
+                        "id": 0,
+                        "size_ratio": 1.0,
+                        "degree": 180,
+                        "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                        "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                    }
+                },
+                "members": [
+                    {
+                        "id": 1,
+                        "name": "유태준",
+                        "email": "fake@mail.com",
+                        "phone": "010-1234-5678",
+                        "birthdate": "2022-12-21",
+                        "address": "서울시 우리집 912호",
+                        "profile": {
+                            "id": 0,
+                            "size_ratio": 1.0,
+                            "degree": 180,
+                            "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                            "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "name": "박경인",
+                        "email": "fake@mail.com",
+                        "phone": "010-1234-5678",
+                        "birthdate": "2022-12-21",
+                        "address": "서울시 우리집 912호",
+                        "profile": {
+                            "id": 0,
+                            "size_ratio": 1.0,
+                            "degree": 180,
+                            "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                            "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                        }
+                    }
+                ],
+                "name": "우리집",
+                "address": "서울시 우리집 912호",
+                "id_code": "ABCDEFGH1234"
             },
-            {
-              "pos_in_layout":1,
-              "text":"안녕하세요"
-            }
-          ]
+            "layout": 0,
+            "date": "2022-12-21",
+            "parts": [
+                {
+                    "id": 0,
+                    "post": 0,
+                    "type": "text",
+                    "pos_in_layout": 0,
+                    "detail": {
+                        "id": 0,
+                        "part": 0,
+                        "text": "hello!"
+                    }
+                },
+                {
+                    "id": 0,
+                    "post": 0,
+                    "type": "photo",
+                    "pos_in_layout": 0,
+                    "detail": {
+                        "id": 0,
+                        "part": 0,
+                        "degree": 180,
+                        "size_ratio": 1.0,
+                        "origin_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C",
+                        "result_img": "https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/85051706_128420625332733_7818767939783360512_n.jpg?stp=dst-jpg_s960x960&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=AGEx5vMV5NwAX8iII8A&_nc_oc=AQlY9pgI1VZvd08t6Scs58P0jIIiruSZ-e7Zna0EQ0XS-e0sxwlgCZyOhQASxyqDHMs&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkbb-kG6vUD2HmlQO8QHQnCayqEfh7fJb0DSSUrJVA&oe=63C9F92C"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  }
+    ]
 }
